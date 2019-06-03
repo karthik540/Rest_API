@@ -1,13 +1,95 @@
 {
-    "posts": [
+  "message": [
+    "BCSB Summary"
+  ],
+  "company": [
+    {
+      "id": "1",
+      "data": [
         {
-        "id": 1,
-        "title": "hello"
+          "report_date": "21-01-1981",
+          "id_number": "73645878345",
+          "company_name": "KLM Info System",
+          "facility_details": [
+            {
+              "facility_name": "abcdefg",
+              "sanctioned_amt": "10000",
+              "authorized_amt": "5555",
+              "outstanding_amount": "66666"
+            },
+            {
+              "facility_name": "xyz",
+              "sanctioned_amt": "67878",
+              "authorized_amt": "121212",
+              "outstanding_amount": "23232"
+            }
+          ]
+        },
+        {
+          "report_date": "12-12-1878",
+          "id_number": "78976876",
+          "company_name": "KNC Info Sys",
+          "facility_details": [
+            {
+              "facility_name": "facility name 23",
+              "sanctioned_amt": "7868768",
+              "authorized_amt": "8989",
+              "outstanding_amount": "123"
+            },
+            {
+              "facility_name": "facility name 24",
+              "sanctioned_amt": "98989",
+              "authorized_amt": "324343",
+              "outstanding_amount": "987"
+            }
+          ]
         }
-    ],
-    "test-data": [
-    ],
-    "profile": {
-        "name": "typicode"
+      ]
     }
+  ],
+  "shareholders": [
+    {
+      "id": "1",
+      "data": [
+        {
+          "report_date": "21-01-1981",
+          "id_number": "73645878345",
+          "shareholder_name": "Karthick V",
+          "facility_details": [
+            {
+              "facility_name": "facility VK",
+              "sanctioned_amt": "345345",
+              "authorized_amt": "2323",
+              "outstanding_amount": "45"
+            },
+            {
+              "facility_name": "facility SK",
+              "sanctioned_amt": "345435",
+              "authorized_amt": "434",
+              "outstanding_amount": "12"
+            }
+          ]
+        },
+        {
+          "report_date": "12-12-1878",
+          "id_number": "78976876",
+          "shareholder_name": "Manokar 23",
+          "facility_details": [
+            {
+              "facility_name": "facility name 23",
+              "sanctioned_amt": "100",
+              "authorized_amt": "50",
+              "outstanding_amount": "29"
+            },
+            {
+              "facility_name": "facility name 24",
+              "sanctioned_amt": "1000",
+              "authorized_amt": "500",
+              "outstanding_amount": "25"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
